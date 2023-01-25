@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+
+.wholePage{
+    background-color: #E8E8E8;
+    z-index: -1;
+    height: 110vh;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6182CD;
+    margin: 0;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 32px;
+    border-radius: 4px;
+    padding: 8px;
+    color:rgb(212, 210, 240)
+}
+
+
+.pageBox{
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 32px;
+    border-style: groove;
+    margin-right: 12px;
+    /* width: 30%; */
+    height: 150%;
+    background-color: #708090;
+  }
+
+.user{
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.parola{
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 64px;
+}
+
+.loginButton{
+    margin-top: 64px;
+    margin-right: 8px;
+}
+
+.signUpButton{
+    margin-top: 64px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    margin-top: 10px;
+    z-index:1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 80px;
+    bottom: 0;
+    top:0;
+}
+
+.bBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
